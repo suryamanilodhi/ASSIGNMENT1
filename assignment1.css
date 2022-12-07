@@ -1,28 +1,37 @@
+*{
+  margin:0px;
+  padding:0px;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
 
 body{
-  background-color:#946353;
+  background-color:lightpink;
   margin:0px; 
   padding:0px;
 }
 #first{
   list-style-type: none; 
-  background-color: darkslategrey;
-  padding:16px; 
-  margin-top:0px;
+  background-color:lightskyblue;
+  /* padding:10px;  */
+  /* margin-top:0px; */
+  
   
 }
-#list{
-  display:inline; 
-  margin:16px; 
+#first li{
+  display:inline-block; 
+  /* margin:16px;  */
+  padding:10px;
   color:white;
 } 
-#list:hover{
-  background-color: black; 
-  padding:16px;
-  margin:-15px;
+#first li:hover{
+  color:white;
+  background-color: black;
+  
 }
-
-
 #image1 {
   height: 500px;
   width: 500px;
@@ -52,7 +61,8 @@ body{
   height: 500px;
   width: 500px;
   margin: 60px;
-  margin-left: 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #box p {
@@ -63,4 +73,10 @@ body{
 a{
     text-decoration: none;
     color:black;
+}
+#head{
+  margin:10px;
+}
+#second{
+  margin:10px;
 }
